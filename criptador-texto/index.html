@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Criptador de Texto</h1>
+    </header>
+    
+    <main>
+        <section id="criptografar">
+            <h2>Criptografar</h2>
+            <textarea id="textoCriptografar" placeholder="Insira o texto a ser criptografado"></textarea><br>
+            <button onclick="criptografarTexto()">Criptografar</button>
+        </section>
+
+        <section id="descriptografar">
+            <h2>Descriptografar</h2>
+            <textarea id="textoDescriptografar" placeholder="Insira o texto a ser descriptografado"></textarea><br>
+            <button onclick="descriptografarTexto()">Descriptografar</button>
+        </section>
+
+        <section id="mensagem">
+            <p id="mensagemValidacao"></p>
+            <button onclick="copiarTexto()">Copiar Texto</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Criado por Charles Ribeiro - 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
